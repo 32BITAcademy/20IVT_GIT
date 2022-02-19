@@ -1,9 +1,9 @@
 #pragma once
 #include<iostream>
 
-void func(int n)
+void func(int n, const char* str)
 {
 	for (int i = 0; i < n; i++)
-		printf("Hi! ");
+		printf("%s", str);
 	printf("\n");
 }

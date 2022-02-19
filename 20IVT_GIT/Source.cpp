@@ -6,7 +6,7 @@ int main()
 	int a;
 	scanf_s("%i", &a);
 	printf("You wrote %i, I answer:", a);
-	func(a);
+	func(a, "Hi! ");
 
 	return 0;
 }
