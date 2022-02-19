@@ -2,7 +2,9 @@
 
 int main()
 {
-	printf("Hello, World!\n");
+	int a;
+	scanf_s("%i", &a);
+	printf("You wrote %i\n", a);
 
 	return 0;
 }
