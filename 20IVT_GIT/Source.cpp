@@ -4,8 +4,9 @@
 int main()
 {
 	int a;
+	printf("Tell me number: ");
 	scanf_s("%i", &a);
-	printf("You wrote %i, I answer:", a);
+	printf("You said \"%i\", I answer:", a);
 	func(a, "Hi! ");
 
 	return 0;
